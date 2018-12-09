@@ -20,6 +20,11 @@ class ViewController: NSViewController, WKUIDelegate {
     self.setupWebView()
   }
   
+  override func viewDidAppear() {
+    super.viewDidAppear()
+    self.view.window?.title = "VSTS"
+  }
+  
   override func loadView() {
     let webConfiguration = WKWebViewConfiguration()
     self.webView = WKWebView(frame: .zero, configuration: webConfiguration)
