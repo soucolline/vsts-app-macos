@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EB735A0721BD305C00B30A30 /* vsts-app-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vsts-app-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB735A0721BD305C00B30A30 /* VSTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB735A0A21BD305C00B30A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB735A0C21BD305C00B30A30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB735A0E21BD305C00B30A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		EB735A0821BD305C00B30A30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB735A0721BD305C00B30A30 /* vsts-app-macos.app */,
+				EB735A0721BD305C00B30A30 /* VSTS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB735A0621BD305C00B30A30 /* vsts-app-macos */ = {
+		EB735A0621BD305C00B30A30 /* VSTS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB735A1721BD305C00B30A30 /* Build configuration list for PBXNativeTarget "vsts-app-macos" */;
+			buildConfigurationList = EB735A1721BD305C00B30A30 /* Build configuration list for PBXNativeTarget "VSTS" */;
 			buildPhases = (
 				EB735A0321BD305C00B30A30 /* Sources */,
 				EB735A0421BD305C00B30A30 /* Frameworks */,
@@ -78,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = "vsts-app-macos";
+			name = VSTS;
 			productName = "vsts-app-macos";
-			productReference = EB735A0721BD305C00B30A30 /* vsts-app-macos.app */;
+			productReference = EB735A0721BD305C00B30A30 /* VSTS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EB735A0221BD305C00B30A30 /* Build configuration list for PBXProject "vsts-app-macos" */;
+			buildConfigurationList = EB735A0221BD305C00B30A30 /* Build configuration list for PBXProject "VSTS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB735A0621BD305C00B30A30 /* vsts-app-macos */,
+				EB735A0621BD305C00B30A30 /* VSTS */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB735A0221BD305C00B30A30 /* Build configuration list for PBXProject "vsts-app-macos" */ = {
+		EB735A0221BD305C00B30A30 /* Build configuration list for PBXProject "VSTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB735A1521BD305C00B30A30 /* Debug */,
@@ -320,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB735A1721BD305C00B30A30 /* Build configuration list for PBXNativeTarget "vsts-app-macos" */ = {
+		EB735A1721BD305C00B30A30 /* Build configuration list for PBXNativeTarget "VSTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB735A1821BD305C00B30A30 /* Debug */,

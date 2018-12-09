@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EB735A0621BD305C00B30A30"
-               BuildableName = "vsts-app-macos.app"
-               BlueprintName = "vsts-app-macos"
-               ReferencedContainer = "container:vsts-app-macos.xcodeproj">
+               BuildableName = "VSTS.app"
+               BlueprintName = "VSTS"
+               ReferencedContainer = "container:VSTS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB735A0621BD305C00B30A30"
-            BuildableName = "vsts-app-macos.app"
-            BlueprintName = "vsts-app-macos"
-            ReferencedContainer = "container:vsts-app-macos.xcodeproj">
+            BuildableName = "VSTS.app"
+            BlueprintName = "VSTS"
+            ReferencedContainer = "container:VSTS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB735A0621BD305C00B30A30"
-            BuildableName = "vsts-app-macos.app"
-            BlueprintName = "vsts-app-macos"
-            ReferencedContainer = "container:vsts-app-macos.xcodeproj">
+            BuildableName = "VSTS.app"
+            BlueprintName = "VSTS"
+            ReferencedContainer = "container:VSTS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EB735A0621BD305C00B30A30"
-            BuildableName = "vsts-app-macos.app"
-            BlueprintName = "vsts-app-macos"
-            ReferencedContainer = "container:vsts-app-macos.xcodeproj">
+            BuildableName = "VSTS.app"
+            BlueprintName = "VSTS"
+            ReferencedContainer = "container:VSTS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
