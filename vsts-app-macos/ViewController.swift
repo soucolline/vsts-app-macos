@@ -7,21 +7,36 @@
 //
 
 import Cocoa
+import WebKit
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, WKUIDelegate {
+  
+  var webView: WKWebView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
-    // Do any additional setup after loading the view.
+    
+    self.setupUI()
+    self.setupWebView()
   }
-
-  override var representedObject: Any? {
-    didSet {
-    // Update the view, if already loaded.
-    }
+  
+  override func loadView() {
+    let webConfiguration = WKWebViewConfiguration()
+    self.webView = WKWebView(frame: .zero, configuration: webConfiguration)
+    self.webView.uiDelegate = self
+    self.view = self.webView
   }
-
+  
+  private func setupWebView() {
+    let url =  URL(string: "https://enab.visualstudio.com")
+    let request = URLRequest(url: url!)
+    self.webView.load(request)
+    self.view = self.webView
+  }
+  
+  private func setupUI() {
+    self.preferredContentSize = CGSize(width: 1200, height: 800)
+  }
 
 }
 
